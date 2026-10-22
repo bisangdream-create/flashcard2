@@ -31,7 +31,7 @@ Output strictly valid JSON array without markdown formatting or code blocks:
   {"word": "單字/Word", "pronunciation": "발음/Pinyin", "meaning": "뜻/해설"}
 ]`;
 
-    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`;
 
     const response = await fetch(apiUrl, {
       method: 'POST',
